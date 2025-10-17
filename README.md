@@ -29,6 +29,7 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 ## Step 5: Data Ingestion (Bronze Layer)
 - ADF pipelines to copy raw data → ADLS Gen2  
 - Parameterized pipelines for incremental loads
+- ![Pipeline Overview](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/Azure_data_pipeline.png)
 
 
 
