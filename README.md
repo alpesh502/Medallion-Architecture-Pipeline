@@ -13,4 +13,4 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 
 ## Step 2: Data Architecture
 - Followed **Medallion Architecture** (Bronze → Silver → Gold) 
-- ![Architecture Diagram](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/Architecture_Diagram.png)
+- ![Architecture Diagram](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/Architecture_diagram.png)
