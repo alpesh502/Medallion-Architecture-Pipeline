@@ -18,4 +18,9 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 
 ## Step 3: Data Sources
 - Batch Data: CSV files (sales, products, customers)
-- 
+- Datasets: [dataset_sample.csv](data/dataset_sample.csv)
+
+
+## Step 4: Azure Setup
+- Azure Free Account, Storage Account (ADLS Gen2), Databricks Workspace  
+- Service Principal for secure access
