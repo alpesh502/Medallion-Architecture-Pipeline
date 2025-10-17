@@ -24,3 +24,11 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 ## Step 4: Azure Setup
 - Azure Free Account, Storage Account (ADLS Gen2), Databricks Workspace  
 - Service Principal for secure access
+- ![Azure Setup](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/AzureSetup.png)
+
+## Step 5: Data Ingestion (Bronze Layer)
+- ADF pipelines to copy raw data → ADLS Gen2  
+- Parameterized pipelines for incremental loads
+
+
+
