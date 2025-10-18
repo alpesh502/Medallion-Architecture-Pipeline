@@ -31,5 +31,8 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 - Parameterized pipelines for incremental loads
 - ![Pipeline Overview](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/Azure_data_pipeline.png)
 
-
+## Step 6: Data Transformation (Silver Layer)
+- Databricks notebooks for cleaning, joining, and transforming data  
+- Stored Delta tables
+- 
 
