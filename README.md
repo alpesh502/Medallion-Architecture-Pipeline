@@ -34,5 +34,10 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 ## Step 6: Data Transformation (Silver Layer)
 - Databricks notebooks for cleaning, joining, and transforming data  
 - Stored Delta tables
+- ![Bronze to Silver Transformation](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/transformation(bronze_to_silver).png)
+
+## Step 7: Aggregation (Gold Layer)
+- Synapse Analytics for aggregated tables  
+- External tables using OPENROWSET()
 - 
 
