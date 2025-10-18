@@ -18,7 +18,8 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 
 ## Step 3: Data Sources
 - Batch Data: CSV files (sales, products, customers)
-- Datasets: [dataset_sample.csv](data/dataset_sample.csv)
+- **Dataset Folder:**  
+- [View Dataset Files](https://github.com/alpesh502/Medallion-Architecture-Pipeline/tree/main/data)
 
 
 ## Step 4: Azure Setup
