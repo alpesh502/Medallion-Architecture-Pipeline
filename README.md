@@ -39,5 +39,13 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 ## Step 7: Aggregation (Gold Layer)
 - Synapse Analytics for aggregated tables  
 - External tables using OPENROWSET()
-- 
+- ![Synapse Analytics Gold Layer](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/Synapse_Analytics(Gold_Layer).png)
 
+## Step 8: Project Conclusion
+
+This project demonstrates how to build an end-to-end Azure Data Engineering pipeline using the Medallion Architecture (Bronze → Silver → Gold).
+
+- In the **Bronze layer**, data was ingested from multiple sources into **Azure Data Lake Gen2** using **Azure Data Factory (ADF)**.  
+- In the **Silver layer**, data was cleaned, joined, and transformed using **Azure Databricks** and **PySpark**.  
+- In the **Gold layer**, the refined and aggregated data was stored in **Azure Synapse Analytics**, ready for advanced analytics or dashboard visualization.
+- This project highlights the complete data flow from raw to processed data, ensuring **scalability, reliability, and performance** in the cloud using **Azure services**.
