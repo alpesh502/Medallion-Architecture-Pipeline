@@ -5,7 +5,7 @@ Transform raw data into actionable insights! Full Azure pipeline project with AD
 **Objective:**  
 Build a data pipeline that takes raw sales data, cleans and organizes it, and turns it into useful insights. Use Azure Data Factory, Databricks, and Delta Lake to process the data, and create interactive Power BI dashboards to help businesses make smart decisions.
 
-**Skills Demonstrated:**  
+**Skills Demonstrated:**
 - Azure Data Factory (ETL pipelines, incremental load)
 - Azure Databricks + PySpark (data transformation, Delta Lake)
 - Azure Synapse Analytics (Gold layer, analytical tables)
@@ -28,12 +28,12 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 - ![Azure Setup](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/AzureSetup.png)
 
 ## Step 5: Data Ingestion (Bronze Layer)
-- ADF pipelines to copy raw data → ADLS Gen2  
+- ADF pipelines to copy raw data → ADLS Gen2
 - Parameterized pipelines for incremental loads
 - ![Pipeline Overview](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/Azure_data_pipeline.png)
 
 ## Step 6: Data Transformation (Silver Layer)
-- Databricks notebooks for cleaning, joining, and transforming data  
+- Databricks notebooks for cleaning, joining, and transforming data
 - Stored Delta tables
 - ![Bronze to Silver Transformation](https://raw.githubusercontent.com/alpesh502/Medallion-Architecture-Pipeline/main/transformation(bronze_to_silver).png)
 
@@ -46,7 +46,7 @@ Build a data pipeline that takes raw sales data, cleans and organizes it, and tu
 
 This project demonstrates how to build an end-to-end Azure Data Engineering pipeline using the Medallion Architecture (Bronze → Silver → Gold).
 
-- In the **Bronze layer**, data was ingested from multiple sources into **Azure Data Lake Gen2** using **Azure Data Factory (ADF)**.  
-- In the **Silver layer**, data was cleaned, joined, and transformed using **Azure Databricks** and **PySpark**.  
+- In the **Bronze layer**, data was ingested from multiple sources into **Azure Data Lake Gen2** using **Azure Data Factory (ADF)**.
+- In the **Silver layer**, data was cleaned, joined, and transformed using **Azure Databricks** and **PySpark**.
 - In the **Gold layer**, the refined and aggregated data was stored in **Azure Synapse Analytics**, ready for advanced analytics or dashboard visualization.
 - This project highlights the complete data flow from raw to processed data, ensuring **scalability, reliability, and performance** in the cloud using **Azure services**.
