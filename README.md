@@ -9,3 +9,9 @@ Transform raw data into actionable insights! Full Azure pipeline project with AD
 ## 🏗️ Step 2: Data Architecture Followed **Medallion Architecture (Bronze → Silver → Gold)**
 
 ![Architecture Diagram](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/Architecture_diagram.png)
+
+---
+## 🧾 Step 3: Data Sources
+**Batch Data:** CSV files (sales, products, customers)
+
+**Dataset Folder:** [View Dataset Files](./data/)
