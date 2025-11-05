@@ -31,8 +31,8 @@ Transform raw data into actionable insights! Full Azure pipeline project with AD
 ![Azure Data Pipeline](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/Azure_data_pipeline.png)
 
 ---
-##  Step 6: Data Transformation (Silver Layer)  
-- Databricks notebooks for cleaning, joining, and transforming data 
+##  Step 6: Data Transformation (Silver Layer)
+- Databricks notebooks for cleaning, joining, and transforming data
 - Stored as Delta tables
 
 ![Bronze to Silver Transformation](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/transformation(bronze_to_silver).png)
