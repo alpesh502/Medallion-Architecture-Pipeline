@@ -25,7 +25,7 @@ Transform raw data into actionable insights! Full Azure pipeline project with AD
 ![Azure Setup](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/AzureSetup.png)
 
 ---
-##  Step 5: Data Ingestion (Bronze Layer) 
+##  Step 5: Data Ingestion (Bronze Layer)
 - ADF pipelines to copy raw data → ADLS Gen2 - Parameterized pipelines for incremental loads 
 
 ![Azure Data Pipeline](https://github.com/alpesh502/Medallion-Architecture-Pipeline/blob/main/Azure_data_pipeline.png)
